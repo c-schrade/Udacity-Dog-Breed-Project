@@ -22,4 +22,13 @@ a human, a dog or neither of the two. This is done via the following strategies:
   is already pre-trained on the ImageNet dataset is used to recognize 
   dogs.
   
-  
+## Second Part of the Algorithm
+
+In the second part the algorithm estimates the dog breed of a shown dog
+(respectively the most resembling dog breed for a shown person). This is 
+done via deep convolutional neural networks. Two different networks get tested:
+
+1. A newly trained newly architectured deep convolutional neural network.
+2. A pre-trained VGG-16 model (again pre-trained on the ImageNet dataset).
+
+
