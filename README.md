@@ -31,4 +31,11 @@ done via deep convolutional neural networks. Two different networks get tested:
 1. A newly trained newly architectured deep convolutional neural network.
 2. A pre-trained VGG-16 model (again pre-trained on the ImageNet dataset).
 
+### Architecture and Hyperparameters for Model 1.
 
+The 1. model consists of three convolutional layers (each followed by a maxpooling 
+layer) and three fully connected layers at the end. For backpropagation a stochastic
+gradient descent optimizer is used.
+
+* Learning rate: 0.01
+* Epochs: 30
