@@ -18,7 +18,7 @@ a human, a dog or neither of the two. This is done via the following strategies:
 * How does the algorithm decide if a human being is shown?: OpenCV's 
   implementation of Haar feature-based cascade classifiers is used to
   recognize faces.
-* How does the algorithm decide if a dog shown?: A VGG-16 model which
+* How does the algorithm decide if a dog is shown?: A VGG-16 model which
   is already pre-trained on the ImageNet dataset is used to recognize 
   dogs.
   
